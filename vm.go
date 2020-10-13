@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/ambu50/procfs/internal/util"
 )
 
 // The VM interface is described at

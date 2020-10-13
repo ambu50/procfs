@@ -14,7 +14,7 @@
 package sysfs
 
 import (
-	"github.com/prometheus/procfs/internal/fs"
+	"github.com/ambu50/procfs/internal/fs"
 )
 
 // FS represents the pseudo-filesystem sys, which provides an interface to

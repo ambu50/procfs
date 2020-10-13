@@ -16,13 +16,13 @@ package blockdevice
 import (
 	"bufio"
 	"fmt"
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/ambu50/procfs/internal/util"
 	"io"
 	"io/ioutil"
 	"os"
 	"strings"
 
-	"github.com/prometheus/procfs/internal/fs"
+	"github.com/ambu50/procfs/internal/fs"
 )
 
 // Info contains identifying information for a block device such as a disk drive

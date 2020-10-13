@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/prometheus/procfs/internal/fs"
+	"github.com/ambu50/procfs/internal/fs"
 )
 
 // ReplyCache models the "rc" line.

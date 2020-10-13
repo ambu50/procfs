@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/ambu50/procfs/internal/util"
 )
 
 // RaplZone stores the information for one RAPL power zone

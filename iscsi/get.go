@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/ambu50/procfs/internal/util"
 )
 
 // GetStats is the main iscsi status information func
