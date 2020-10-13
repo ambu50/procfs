@@ -126,7 +126,8 @@ func (fs FS) parseInfiniBandDevice(name string) (*InfiniBandDevice, error) {
 		name := filepath.Join(path, f)
 		value, err := util.SysReadFile(name)
 		if err != nil {
-			return nil, fmt.Errorf("failed to read file %q: %v", name, err)
+			//return nil, fmt.Errorf("failed to read file %q: %v", name, err)
+			value = "unknown"
 		}
 
 		switch f {
